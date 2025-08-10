@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draftsmith - The AI Blog Post Factory That Lives on Your Desktop</title>
+    <link href="./dist/output.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-base-100">
+    <!-- Header -->
+    <div class="navbar bg-base-100 border-b border-base-200">
+        <div class="navbar-start">
+            <a href="index.html" class="btn btn-ghost text-xl">
+                <div class="w-8 h-8 bg-base-content rounded-sm flex items-center justify-center">
+                    <div class="text-base-100 font-bold text-sm">D</div>
+                </div>
+                Draftsmith
+            </a>
+        </div>
+        <div class="navbar-end">
+            <div class="hidden sm:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="index.html" class="btn btn-ghost font-semibold">Overview</a></li>
+                    <li><a href="changelog.html" class="btn btn-ghost">Changelog</a></li>
+                    <li><a href="roadmap.html" class="btn btn-ghost">Roadmap</a></li>
+                </ul>
+            </div>
+            <div class="dropdown dropdown-end sm:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="index.html" class="font-semibold">Overview</a></li>
+                    <li><a href="changelog.html">Changelog</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 lg:px-8 py-12 max-w-4xl">
+        <div class="space-y-12">
+                <!-- Hero Section -->
+                <div class="mb-12">
+                    <h1 class="text-4xl lg:text-5xl font-bold text-base-content mb-6 leading-tight">
+                        Draftsmith - The AI Blog Post Factory That Lives on Your Desktop
+                    </h1>
+
+                    <h2 class="text-2xl lg:text-3xl text-base-content/80 mb-8 leading-relaxed">
+                        No subscriptions. No mysterious cloud server reading your drafts. Bring your own API key, and Draftsmith will churn out blog posts while you sip coffee and pretend to "research."
+                    </h2>
+                </div>
+
+                <!-- Why You'll Love It Section -->
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-base-content mb-6">Why You'll Love (and Slightly Fear) It</h3>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-lg">
+                                <strong class="text-base-content">One-Time Payment</strong> - You pay once, we go away. No monthly "rent" for your own words.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-lg">
+                                <strong class="text-base-content">BYOK (Bring Your Own Key)</strong> - Your OpenAI/Anthropic key, your costs, your control.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-lg">
+                                <strong class="text-base-content">Offline-Friendly</strong> - The cloud can't "accidentally" read your diary.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-lg">
+                                <strong class="text-base-content">For Blogs Only (for now)</strong> - Because small bets > sprawling, half-finished "all-in-one" tools.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How It Works Section -->
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-base-content mb-6">How It Works</h3>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="badge badge-primary badge-lg font-bold">1</div>
+                            <div>
+                                <h4 class="font-semibold text-base-content mb-2 text-lg">Feed It an Idea</h4>
+                                <p class="text-base-content/80 text-lg">Or let Draftsmith make up something absurdly clickbaity.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="badge badge-primary badge-lg font-bold">2</div>
+                            <div>
+                                <h4 class="font-semibold text-base-content mb-2 text-lg">Add Some Personality</h4>
+                                <p class="text-base-content/80 text-lg">Choose tone, style, and audience so it doesn't sound like a toaster wrote it.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="badge badge-primary badge-lg font-bold">3</div>
+                            <div>
+                                <h4 class="font-semibold text-base-content mb-2 text-lg">Boom, Blog Post</h4>
+                                <p class="text-base-content/80 text-lg">Generate, tweak, and export without leaving your desk (or your pants).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Why This Exists Section -->
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-base-content mb-6">Why This Exists Instead of Just Using ChatGPT</h3>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-base-content/80 text-lg">
+                                Draftsmith remembers your tone without you nagging it every time.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-base-content/80 text-lg">
+                                You can store and reuse ideas, outlines, and drafts in one place.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-base-content/80 text-lg">
+                                You won't scroll through "conversation history" like an archeologist trying to find last week's post.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-base-content/80 text-lg">
+                                It's optimized for blog workflow, not "help me write a poem about my cat in pirate slang."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Who It's For Section -->
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-base-content mb-6">Who It's For</h3>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-accent rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-base-content/80 text-lg">
+                                Bloggers who like their words local, their bills predictable, and their apps subscription-free.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-accent rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-base-content/80 text-lg">
+                                People who get irrationally annoyed at "Sign in with Google."
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-accent rounded-full mt-3 flex-shrink-0"></div>
+                            <div class="text-base-content/80 text-lg">
+                                Writers who think the cloud is just "someone else's computer."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-base-content mb-6">FAQ</h3>
+
+                    <div class="space-y-8">
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Why can't I just use ChatGPT?</h4>
+                            <p class="text-base-content/80 text-lg">You can. But then you'll be copy-pasting between browser tabs, babysitting your tone every session, and losing drafts in the abyss of "New Chat." Draftsmith is a blog-post-focused writing cockpit-not a general-purpose AI sandbox.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Does it work offline?</h4>
+                            <p class="text-base-content/80 text-lg">Yep. No cloud sync. No SaaS nightmares.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: What's BYOK?</h4>
+                            <p class="text-base-content/80 text-lg">Bring Your Own Key. I don't sell API access-you plug in your OpenAI/Anthropic key and pay them directly.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: What if I don't have an API key?</h4>
+                            <p class="text-base-content/80 text-lg">Get one. They're cheap, fast, and won't ask you to name your firstborn.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: How will I get my license?</h4>
+                            <p class="text-base-content/80 text-lg">Like a civilized 21st-century transaction - via email. No carrier pigeons, no fax machines. You buy Draftsmith, Gumroad sends you an email, and inside is your shiny license key.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: What's your refund policy?</h4>
+                            <p class="text-base-content/80 text-lg">I have a 7-day refund policy. If you're not happy, email me within a week and I'll refund you - no dramatic breakup speeches required.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Why can't I just use ChatGPT (or Claude) for this?</h4>
+                            <p class="text-base-content/80 text-lg">You totally can. If you enjoy juggling prompts, copying and pasting into Google Docs, and losing track of your work in a sea of browser tabs. Draftsmith simply puts all of that in one tidy, offline, no-subscription box - with your writing style baked in.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Can I use one license on multiple machines?</h4>
+                            <p class="text-base-content/80 text-lg">Nope. One license = one machine. Think of it like a toothbrush - technically you could share it, but you really shouldn't.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Does Draftsmith work offline?</h4>
+                            <p class="text-base-content/80 text-lg">Yes... mostly. It's a desktop app, but if you want to summon the AI magic, you'll need the internet. Otherwise, you can stare at your beautiful offline drafts in pure, unplugged bliss.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Do you store my data?</h4>
+                            <p class="text-base-content/80 text-lg">No. Your drafts live on your machine, not in some mysterious "cloud" server. I don't want your half-finished novel or 3 a.m. rants.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Is there a subscription?</h4>
+                            <p class="text-base-content/80 text-lg">Absolutely not. You pay once, own it forever, and only cry when OpenAI changes their pricing.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Can I import/export my stuff?</h4>
+                            <p class="text-base-content/80 text-lg">Yes. Draftsmith believes in freedom - your ideas are yours. Export them, import them, hoard them on a floppy disk if you must.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Will Draftsmith make me a better writer?</h4>
+                            <p class="text-base-content/80 text-lg">Only emotionally. The words will be there; the therapy bills are still on you.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: What operating systems does Draftsmith work on?</h4>
+                            <p class="text-base-content/80 text-lg">Windows, macOS, and Linux - the holy trinity of desktop computing. If you're still on Windows XP or running something exotic like "BeOS," Draftsmith will politely decline to install.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: What about bugs?</h4>
+                            <p class="text-base-content/80 text-lg">Oh, they exist. I call them "quirks." If you find one, report it - I might fix it, or I might write a heartfelt blog post about it instead.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-base-content mb-3">Q: Do you send me a CD-ROM?</h4>
+                            <p class="text-base-content/80 text-lg">No. This isn't 1999, and I'm not AOL. The box art is just for nostalgia. You'll download the app and be typing away faster than you can say "Insert Disc 2."</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Product Section (formerly sidebar) -->
+                <div class="bg-base-200 rounded-lg p-8 mt-12">
+                    <div class="max-w-2xl mx-auto text-center">
+                        <div class="flex items-center justify-center gap-2 mb-6">
+                            <div class="w-10 h-10 bg-base-content rounded-sm flex items-center justify-center">
+                                <div class="text-base-100 font-bold">D</div>
+                            </div>
+                            <span class="text-xl font-semibold">Draftsmith</span>
+                            <div class="badge badge-warning ml-2">One-Time</div>
+                        </div>
+
+                        <h4 class="text-2xl font-bold text-base-content mb-6">Desktop AI Blog Factory</h4>
+
+                        <div class="mb-6 max-w-md mx-auto">
+                            <img src="images/draftsmith-cdrom.png"
+                                 alt="Draftsmith desktop app on CD-ROM"
+                                 class="w-full rounded-lg border border-base-300 shadow-sm">
+                        </div>
+
+                        <p class="text-lg text-base-content/80 mb-6 max-w-xl mx-auto">
+                            You'll get the desktop app, free updates, and the satisfaction of owning software instead of renting it. <strong>Bring your own API key</strong> and start cranking out blog posts immediately.
+                        </p>
+
+                        <h5 class="text-xl font-bold text-base-content mb-4">Ready to own your words?</h5>
+
+                        <p class="text-base text-base-content/80 mb-8 max-w-lg mx-auto">
+                            One-time license, instant download. No subscriptions, no cloud drama, no mysterious charges.
+                        </p>
+
+                        <div class="max-w-sm mx-auto">
+                            <a href="https://5437752089063.gumroad.com/l/niixa" class="btn btn-primary btn-block btn-xl font-semibold text-lg">
+                                Buy for $99 - Laugh Forever
+                            </a>
+                            <p class="text-sm text-base-content/60 mt-4">
+                                One-time license, instant download.
+                            </p>
+                            <p class="text-xs text-base-content/50 mt-3 italic">
+                                Disclaimer: Despite the beautiful product box art, no actual CD-ROM will be mailed to you. It's 2025. We barely mail letters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content">
+        <div>
+            <p class="text-md">© 2025 Lakshminp. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
